@@ -57,8 +57,8 @@ print(model.summary())
 
 from keras.preprocessing.image import ImageDataGenerator
 !pwd
-train_data_dir = 'drive/My Drive/corona/train/'
-validation_data_dir = 'drive/My Drive/corona/test/'
+train_data_dir = 'corona/train/'
+validation_data_dir = 'corona/test/'
 
 # Let's use some data augmentaiton 
 train_datagen = ImageDataGenerator(
