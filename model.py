@@ -56,7 +56,7 @@ model = Model(inputs = MobileNet.input, outputs = FC_Head)
 print(model.summary())
 
 from keras.preprocessing.image import ImageDataGenerator
-!pwd
+
 train_data_dir = 'corona/train/'
 validation_data_dir = 'corona/test/'
 
